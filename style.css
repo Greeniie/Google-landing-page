@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-size: 14px;  
+}
+
+nav {
+ display: flex;
+ justify-content: space-around ;
+ width: 15%;
+ margin-left: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: small;
+    padding-right: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav img {
+    height: 20px;
+    padding-right: 20px;
+   
+}
+
+main{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+input {
+    margin-top: 20px;
+    width: 80%;
+    padding: 1em;
+    border-radius: 30px;
+    border: 1px solid darkgrey;
+}
+input:hover {
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124; 
+}
+
+.btn {
+    margin-top: 1.5rem;
+}
+button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+}
+
+button:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.lang-links {
+    text-align: center;
+    display:inline-flex;
+    margin-top: 1.3rem;
+}
+
+.lang-links a {
+   padding-left: 5px; 
+   padding-right: 5px;
+   font-size: 14px;
+   text-decoration: none;
+}
+
+.lang-links a:hover , .lang-links a:active {
+    text-decoration: underline;
+}
+
+footer {
+    background-color:#f8f9fa
+}
+
+footer img {
+    height: 14px;
+}
+
+footer a {
+    color: #70757a;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+footer a:hover, a:active {
+    text-decoration: underline;
+}
+
+.footer-top {
+    margin-top: 220px;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54)
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .footer-bottom {
+        display: block;
+    }
+
+}
